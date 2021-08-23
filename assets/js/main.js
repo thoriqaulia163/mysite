@@ -126,7 +126,8 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
 
 // CONTACT ME ===========================================================
 function messageSubmit() {
-    document.getElementById("contactSubmit").click(); // Click on the checkbox
+    document.getElementById("contactSubmit").click(); // Click on the submit button
+    alert('Your message send succesfully')
   }
 
 // SCROLL SECTIONS ACTIVE LINK =====================================
