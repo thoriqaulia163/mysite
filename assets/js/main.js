@@ -124,6 +124,11 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
     keyboard: true,
 });
 
+// CONTACT ME ===========================================================
+function messageSubmit() {
+    document.getElementById("contactSubmit").click(); // Click on the checkbox
+  }
+
 // SCROLL SECTIONS ACTIVE LINK =====================================
 const sections = document.querySelectorAll('section[id]')
 
