@@ -7,6 +7,7 @@
 
     /* Colors =================== */
     /* Change favorite color | purple 250 - green 142 - blue 230 - pink 340  */
+    /* --hue-color: 162; */
     --hue-color: 200;
 
     /* HSL color mode  */
@@ -565,7 +566,7 @@ img{
     transform: rotate(-180deg) ;
 }
 
-/* QUALIFIACTION ============================================= */
+/* QUALIFICATION ============================================= */
 .qualification__tabs{
     display: flex;
     justify-content: space-evenly;
@@ -638,6 +639,10 @@ img{
 }
 
 /* SERVICES ============================================= */
+.services{
+    display: none;
+}
+
 .services__container{
     gap: 1.5rem;
     grid-template-columns: repeat(2,1fr);
@@ -825,6 +830,10 @@ img{
 }
 
 /* TESTIMONIAL =============================================  */
+.testimonial{
+    display: none;
+}
+
 .testimonial__data,
 .testimonial__header{
     display: flex;
@@ -1153,7 +1162,7 @@ img{
         column-gap: 5rem;
     }
     .about__img{
-        width: 350px;
+        width: 250px;
     }
 
     .about__description{
